@@ -3,12 +3,12 @@ package appium.page;
 import appium.until.AppDriver;
 import org.openqa.selenium.By;
 
-public class page首页 {
+public class pages {
         By mendian=By.id("rl_manager_shop");
 
-        public page门店管理 mendian(){
+        public pagemg mendian(){
             AppDriver.driver.findElement(mendian).click();
-            return new page门店管理();
+            return new pagemg();
         }
 
 

@@ -6,7 +6,7 @@ import org.openqa.selenium.By;
 import java.util.List;
 import java.util.stream.Collectors;
 
-public class page门店管理 {
+public class pagemg {
 
      By mengname = By.id("shop_name");
 
@@ -16,9 +16,9 @@ public class page门店管理 {
                  .collect(Collectors.toList());
      }
 
-     public mendian详情 click(){
+     public mendianx click(){
          AppDriver.driver.findElements(mengname).get(0).click();
-         return new mendian详情();
+         return new mendianx();
      }
 
 
