@@ -2,7 +2,10 @@
 <suite name="testproj" parallel="false">
     <test name="testDemo1">
         <classes>
-            <class name="appium.testcase.Test1"></class>
+            <class name="appium.testcase.homeTest"></class>
         </classes>
     </test>
+    <listeners>
+       <listener class-name="appium.dao.TestFailListener"/>
+    </listeners>
 </suite>
