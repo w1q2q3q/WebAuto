@@ -18,7 +18,7 @@ import org.testng.annotations.Test;
 import java.io.File;
 import java.io.IOException;
 import java.net.MalformedURLException;
-//@Listeners({TestFailListener.class})
+@Listeners({TestFailListener.class})
 public class homeTest {
 
     @BeforeClass
