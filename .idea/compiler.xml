@@ -9,5 +9,8 @@
         <module name="appiumdemo" />
       </profile>
     </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="appiumdemo" target="8" />
+    </bytecodeTargetLevel>
   </component>
 </project>
